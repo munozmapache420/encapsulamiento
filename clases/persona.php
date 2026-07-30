@@ -38,8 +38,28 @@ public function setTrabajo($trabajo){
     echo "hola: " . $this->nombre . "</br>" ."tu apellido es: ". $this->apellido . "</br>" . " tu edad es: " . $this->edad . "</br>" ."tu correo es: " . $this->correo . "</br>". "trabajas en: " . $this->trabajo . "</br>";
    }
 
-}
 
+   public function getNombre(){
+    return $this->nombre;
+   }
+
+   public function getApellido(){
+    return $this->apellido;
+   }
+
+   public function getEdad(){
+    return $this->edad;
+   }
+
+   public function getCorreo(){
+    return $this->correo;
+   }
+
+   public function getTrabajo(){
+    return $this->trabajo;
+   }
+
+}
 
 
 
