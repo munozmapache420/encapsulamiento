@@ -62,7 +62,4 @@ public function setTrabajo($trabajo){
 }
 
 
-
-
-
 ?>
