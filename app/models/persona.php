@@ -36,7 +36,7 @@ public function setEdad($edad){
     if (is_numeric($edad) && $edad >= 18 && $edad <= 120 && trim($edad) !== "") {
         $this->edad = $edad;
     } else {
-        echo "Edad no válida.";
+        echo "Edad no válida. ";
     }
 }
 
