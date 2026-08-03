@@ -19,4 +19,7 @@ echo "</br>";
 
 echo "hola: ".   $persona2->getNombre() . "</br>";
 echo "tienes una edad de: " . $persona2->setEdad(1) . "</br>";
+
+
+echo $persona1->setNombre("")
 ?>

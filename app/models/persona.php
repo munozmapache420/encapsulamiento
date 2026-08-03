@@ -21,6 +21,8 @@ public function setNombre($nombre){
     if (is_string($nombre) && trim($nombre) !== "")
     {
     $this->nombre= $nombre;
+    }else{
+        echo "</br>". "nombre invalido. " . "</br>";
     }
 }
 
@@ -36,7 +38,7 @@ public function setEdad($edad){
     if (is_numeric($edad) && $edad >= 18 && $edad <= 120 && trim($edad) !== "") {
         $this->edad = $edad;
     } else {
-        echo "Edad no válida. ";
+        echo "</br>". "Edad no válida." . "</br>";
     }
 }
 
