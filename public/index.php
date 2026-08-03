@@ -13,10 +13,10 @@ $persona2->saludar();
 
 echo "</br>";
 
-echo "hola" . $persona1->getNombre() . "</br>";
-echo "tienes una edad de " . $persona1->getEdad() . "</br>";
+echo "hol: " . $persona1->getNombre() . "</br>";
+echo "tienes una edad de: " . $persona1->getEdad() . "</br>";
 echo "</br>";
 
-echo "hola".   $persona2->getNombre() . "</br>";
-echo "tienes una edad de " . $persona1->getEdad() . "</br>";
+echo "hola: ".   $persona2->getNombre() . "</br>";
+echo "tienes una edad de: " . $persona1->getEdad() . "</br>";
 ?>
